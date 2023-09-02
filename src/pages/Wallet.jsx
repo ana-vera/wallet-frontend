@@ -1,15 +1,12 @@
-import { NewRecord } from '../components'
+import { NewRecord, Categories, History } from '../components'
 
 const Wallet = () => {
   return (
-    <div className='container'>
+    <div className='container pt-5'>
       <div className='row'>
-        <div className='col'> CATEGORIES
-        </div>
-        <div className='col'>
-          <NewRecord />
-        </div>
-        <div className='col'> HISTORY</div>
+        <div className='col'> <Categories /> </div>
+        <div className='col'> <NewRecord /> </div>
+        <div className='col'> <History /></div>
       </div>
     </div>
   )

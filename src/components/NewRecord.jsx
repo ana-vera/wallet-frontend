@@ -1,8 +1,9 @@
 const NewRecord = () => {
   return (
 
-    // ----- New Record - Transfer ------
     <form className='d-flex flex-column' action=''>
+
+      {/* ----- New Record // Transfer ------ */}
       <div className='btn-group btn-group-lg' role='group' aria-label='Large radio toggle button group'>
         <input type='radio' className='btn-check' name='btnradio' id='btnradio1' autoComplete='off' />
         <label className='btn btn-outline-primary' htmlFor='btnradio1'>New record</label>

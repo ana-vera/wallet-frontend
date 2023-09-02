@@ -8,7 +8,7 @@ import RouterIndex from './routes/Index'
 function App () {
   return (
     <>
-      <div className='container lol'>
+      <div className='container'>
         <Navtabs />
         <RouterIndex />
       </div>
